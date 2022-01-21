@@ -34,7 +34,9 @@ const SavedBooks = () => {
       console.log(error);
     }
   };
-
+  if (loading) {
+    return <h2>LOADING...</h2>;
+  }
   return (
     <>
       <Jumbotron fluid className="text-light bg-dark">
