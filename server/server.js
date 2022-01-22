@@ -37,3 +37,6 @@ db.once("open", () => {
     console.log(`GraphQL: http://localhost:${PORT}${server.graphqlPath}`);
   });
 });
+
+//Heroku
+// https://tranquil-retreat-20053.herokuapp.com/
